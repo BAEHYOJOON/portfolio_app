@@ -102,7 +102,7 @@ export function Skills() {
                   </div>
                   <div className="skill-bar-container">
                     <div
-                      ref={(el) => (progressRefs.current[index] = el)}
+                      ref={(el) => { progressRefs.current[index] = el; }}
                       className="skill-progress frontend"
                       data-width={skill.level}
                     ></div>
@@ -127,7 +127,7 @@ export function Skills() {
                   </div>
                   <div className="skill-bar-container">
                     <div
-                      ref={(el) => (progressRefs.current[frontendSkills.length + index] = el)}
+                      ref={(el) => { progressRefs.current[frontendSkills.length + index] = el; }}
                       className="skill-progress backend"
                       data-width={skill.level}
                     ></div>
