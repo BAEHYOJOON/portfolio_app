@@ -57,7 +57,7 @@ export function About() {
           {/* 프로필 이미지 부분 */}
           <div className="profile-image">
             <div className="image-container">
-              <div className="placeholder">홍길동</div>
+              <div className="placeholder">효준배</div>
             </div>
           </div>
 
@@ -80,7 +80,7 @@ export function About() {
             {/* 개인 정보 */}
             <div className="personal-info">
               <div>
-                <p><strong>이름:</strong> 홍길동</p>
+                <p><strong>이름:</strong> 효준배</p>
                 <p><strong>이메일:</strong> example@email.com</p>
               </div>
               <div>
@@ -141,20 +141,21 @@ export function About() {
           height: 200px;
           border-radius: 50%;
           overflow: hidden;
-          border: 4px solid rgba(59, 130, 246, 0.2);
-          box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+          border: 4px solid rgba(0, 255, 255, 0.3);
+          box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
         }
         
         .placeholder {
           width: 100%;
           height: 100%;
-          background: linear-gradient(to bottom right, rgba(59, 130, 246, 0.3), rgba(139, 92, 246, 0.3));
+          background: linear-gradient(to bottom right, rgba(0, 255, 255, 0.7), rgba(255, 0, 255, 0.7));
           display: flex;
           align-items: center;
           justify-content: center;
           font-size: 2.5rem;
           font-weight: bold;
           color: white;
+          text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
         }
         
         .profile-info {
